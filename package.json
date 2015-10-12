@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "istanbul test _mocha",
-    "prepublish": "babel -d lib/ src/"
+    "prepublish": "babel -d lib/ src/",
+    "postpublish": "git push --follow-tags"
   },
   "repository": {
     "type": "git",
