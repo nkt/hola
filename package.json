@@ -1,0 +1,31 @@
+{
+  "name": "hola",
+  "version": "0.0.0",
+  "description": "Web framework for building API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "istanbul test _mocha",
+    "prepublish": "babel -d lib/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkt/hola.git"
+  },
+  "author": "Nikita Gusakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkt/hola/issues"
+  },
+  "homepage": "https://github.com/nkt/hola#readme",
+  "dependencies": {
+    "babel-runtime": "^5.8.25",
+    "bluebird": "^2.10.2"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-plugin-typecheck": "^1.3.0",
+    "chai": "^3.3.0",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.3.3"
+  }
+}
