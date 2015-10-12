@@ -1,6 +1,6 @@
 {
   "name": "hola",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Web framework for building API",
   "main": "lib/index.js",
   "scripts": {
